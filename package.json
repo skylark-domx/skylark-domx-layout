@@ -1,5 +1,5 @@
 {
-  "name": "skylark-utils-layout",
+  "name": "skylark-domx-layout",
   "version": "0.9.1",
   "description": "The dom layout features enhancement for skylark utils.",
   "main": "-",
@@ -10,7 +10,7 @@
   "homepage": "www.skylarkjs.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skylarkjs/skylark-utils-layout.git"
+    "url": "git+https://github.com/skylark-domx/skylark-domx-layout.git"
   },
   "keywords": [
     "skylark",
@@ -25,9 +25,8 @@
   "bugs": "https://github.com/skylarkjs/skylark/issues",
   "dependencies": {},
   "devDependencies": {
-    "skylark-langx": "https://github.com/skylarklangx/skylark-langx#master",
-    "skylark-utils": "https://github.com/skylarkutils/skylark-utils#master",
-    "skylark-utils-dom": "https://github.com/skylarkutils/skylark-utils-dom#master"
+    "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master",
+    "skylark-utils-dom": "git+https://github.com/skylarkutils/skylark-utils-dom.git#master"
   },
   "engines": {
     "node": ">=0.8.0"

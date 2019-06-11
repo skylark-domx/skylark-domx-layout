@@ -1,6 +1,6 @@
 define([
-    "skylark-utils/skylark",
-    "skylark-utils/langx"
+    "skylark-utils-dom/skylark",
+    "skylark-utils-dom/langx"
 ], function(skylark, langx) {
 	
 	var layouts = skylark.layouts = {

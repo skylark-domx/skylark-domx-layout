@@ -1,8 +1,8 @@
 define([
     "skylark-langx/langx",
-    "skylark-utils/finder",
-    "skylark-utils/geom",
-    "skylark-utils/styler",
+    "skylark-utils-dom/finder",
+    "skylark-utils-dom/geom",
+    "skylark-utils-dom/styler",
     "./layouts"
 ],function(langx,finder,geom,styler,layouts) {
     // summary:

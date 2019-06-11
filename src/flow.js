@@ -1,6 +1,6 @@
 define([
     "skylark-langx/langx",
-    "skylark-utils/query",
+    "skylark-utils-dom/query",
     "./layouts",
 ], function(langx,$,layouts) {
     // summary:
