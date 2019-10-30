@@ -1,8 +1,8 @@
 define([
     "skylark-langx/langx",
-    "skylark-utils-dom/datax",
-    "skylark-utils-dom/finder",
-    "skylark-utils-dom/geom",
+    "skylark-domx-data",
+    "skylark-domx-finder",
+    "skylark-domx-geom",
     "./layouts",
 	"./DockStyle",
 ], function(langx,datax,finder,geom,layouts,geom,DockStyle) {

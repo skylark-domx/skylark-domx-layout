@@ -1,6 +1,6 @@
 define([
     "skylark-langx/langx",
-    "skylark-utils-dom/styler",
+    "skylark-domx-styler",
     "./layouts"
 ], function(langx,styler,layouts) {
 

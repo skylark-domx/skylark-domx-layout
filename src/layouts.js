@@ -1,11 +1,6 @@
 define([
-    "skylark-utils-dom/skylark",
-    "skylark-utils-dom/langx"
-], function(skylark, langx) {
+    "skylark-langx/skylark"
+], function(skylark) {
 	
-	var layouts = skylark.layouts = {
-	};
-
-
-	return layouts;
+	return skylark.attach("domx.layouts",{});
 });
