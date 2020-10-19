@@ -4,12 +4,12 @@ define([
 ],function(langx,layouts) {
 
 	var DockStyle = layouts.DockStyle = {
-		"none" : 1, 
-		"left" : 2, 
-		"top" : 3, 
-		"right" : 4, 
-		"bottom" : 5, 
-		"client" : 6
+		"None" : 1, 
+		"Left" : 2, 
+		"Top" : 3, 
+		"Right" : 4, 
+		"Bottom" : 5, 
+		"Client" : 6
 	};
 
 	return DockStyle;

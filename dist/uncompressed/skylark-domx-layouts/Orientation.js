@@ -3,9 +3,9 @@ define([
     "./layouts"
 ], function(langx,layouts) {
 
-    var Orientation = layout.Orientation = {
-    	"horz" : 1, 
-    	"vert" : 2
+    var Orientation = layouts.Orientation = {
+    	"Horizontal" : 1, 
+    	"Vertical" : 2
     };
     return Orientation;
 });

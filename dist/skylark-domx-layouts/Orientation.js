@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["skylark-langx/langx","./layouts"],function(n,t){return layout.Orientation={horz:1,vert:2}});
+define(["skylark-langx/langx","./layouts"],function(n,a){return a.Orientation={Horizontal:1,Vertical:2}});
 //# sourceMappingURL=sourcemaps/Orientation.js.map

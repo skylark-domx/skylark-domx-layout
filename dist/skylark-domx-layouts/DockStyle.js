@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["skylark-langx/langx","./layouts"],function(t,n){return n.DockStyle={none:1,left:2,top:3,right:4,bottom:5,client:6}});
+define(["skylark-langx/langx","./layouts"],function(t,n){return n.DockStyle={None:1,Left:2,Top:3,Right:4,Bottom:5,Client:6}});
 //# sourceMappingURL=sourcemaps/DockStyle.js.map

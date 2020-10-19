@@ -75,7 +75,7 @@
   factory(define,require);
 
   if (!isAmd) {
-    var skylarkjs = require("skylark-langx/skylark");
+    var skylarkjs = require("skylark-langx-ns");
 
     if (isCmd) {
       module.exports = skylarkjs;
@@ -97,9 +97,9 @@ define('skylark-domx-layouts/Orientation',[
     "./layouts"
 ], function(langx,layouts) {
 
-    var Orientation = layout.Orientation = {
-    	"horz" : 1, 
-    	"vert" : 2
+    var Orientation = layouts.Orientation = {
+    	"Horizontal" : 1, 
+    	"Vertical" : 2
     };
     return Orientation;
 });
@@ -205,12 +205,12 @@ define('skylark-domx-layouts/DockStyle',[
 ],function(langx,layouts) {
 
 	var DockStyle = layouts.DockStyle = {
-		"none" : 1, 
-		"left" : 2, 
-		"top" : 3, 
-		"right" : 4, 
-		"bottom" : 5, 
-		"client" : 6
+		"None" : 1, 
+		"Left" : 2, 
+		"Top" : 3, 
+		"Right" : 4, 
+		"Bottom" : 5, 
+		"Client" : 6
 	};
 
 	return DockStyle;
