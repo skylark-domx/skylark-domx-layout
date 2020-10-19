@@ -11,39 +11,6 @@ define([
 ){
 
 	/**
-	 * Gets nth child of el, ignoring hidden children, sortable's elements (does not ignore clone if it's visible)
-	 * and non-draggable elements
-	 * @param  {HTMLElement} el       The parent element
-	 * @param  {Number} childNum      The index of the child
-	 * @param  {Object} options       Parent Sortable's options
-	 * @return {HTMLElement}          The child at index childNum, or null if not found
-	 */
-	function _getChild(el, childNum, options) {
-		var currentChild = 0,
-			i = 0,
-			children = el.children;
-
-		while (i < children.length) {
-			if (
-				children[i].style.display !== 'none' &&
-				//children[i] !== ghostEl &&
-				//children[i] !== dragEl &&
-				!options.excluding.includes(children[i] ) && 
-				finder.closest(children[i], options.draggable, el, false)
-			) {
-				if (currentChild === childNum) {
-					return children[i];
-				}
-				currentChild++;
-			}
-
-			i++;
-		}
-		return null;
-	}
-
-
-	/**
 	 * Detects children orientation.
 	 */
 	function oriented(el, options) {
@@ -51,8 +18,8 @@ define([
 
 			elWidth = geom.contentRect(el).width,
 
-			child1 = _getChild(el, 0, options),
-			child2 = _getChild(el, 1, options),
+			child1 = finder.childAt(el, 0, options),
+			child2 = finder.childAt(el, 1, options),
 			firstChildCSS = child1 && styler.css(child1),
 			secondChildCSS = child2 && styler.css(child2),
 
