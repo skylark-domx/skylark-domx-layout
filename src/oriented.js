@@ -49,9 +49,9 @@ define([
 				firstChildCSS.display === 'table' ||
 				firstChildCSS.display === 'grid' ||
 				firstChildWidth >= elWidth &&
-				elCSS[CSSFloatProperty] === 'none' ||
+				elCSS.float === 'none' ||
 				child2 &&
-				elCSS[CSSFloatProperty] === 'none' &&
+				elCSS.float === 'none' &&
 				firstChildWidth + secondChildWidth > elWidth
 			) ?
 			Orientation.Vertical : Orientation.Horizontal
